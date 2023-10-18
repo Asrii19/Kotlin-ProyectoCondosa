@@ -1,0 +1,274 @@
+{
+  "name": "barra_menu1",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "d5sAnj4xc4Ac4iCQPEmr2A",
+    "node": "30:332",
+    "version": "4359078801",
+    "component-id": "4a657381d191780f925612f183d75e7e9b444b56"
+  },
+  "default": "Prop 1=MenuPrincipal",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "IconoPrincipal2"
+      },
+      {
+        "type": "group",
+        "id": "Opciones"
+      },
+      {
+        "type": "vector",
+        "id": "fondo"
+      },
+      {
+        "type": "text",
+        "id": "Nosotros"
+      },
+      {
+        "type": "text",
+        "id": "Blog"
+      },
+      {
+        "type": "text",
+        "id": "Contactanos"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      }
+    ],
+    "modes": {
+      "Prop 1=MenuPrincipal": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "IconoPrincipal2",
+              "Opciones"
+            ],
+            "item-spacing": "30.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "IconoPrincipal2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "33.6595458984375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.056640625"
+              }
+            },
+            "vector-content": "icono_principal2.svg"
+          },
+          {
+            "id": "Opciones",
+            "border-radius": "20.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "389.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "264.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "fondo",
+              "Nosotros",
+              "Blog",
+              "Contactanos",
+              "Vector",
+              "Vector1"
+            ]
+          },
+          {
+            "id": "fondo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "390.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "262.0"
+              }
+            },
+            "vector-content": "fondo.svg"
+          },
+          {
+            "id": "Nosotros",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-59.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "Nosotros",
+            "overflow": "visible",
+            "text-size": "25.0",
+            "line-height": "1.219000015258789",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "Blog",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-18.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "Blog",
+            "overflow": "visible",
+            "text-size": "25.0",
+            "line-height": "1.219000015258789",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "Contactanos",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "23.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "Contáctanos",
+            "overflow": "visible",
+            "text-size": "25.0",
+            "line-height": "1.219000015258789",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "Vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "75.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "154.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Vector1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-102.1595458984375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "167.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "43.0"
+              }
+            },
+            "vector-content": "vector1.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Prop 1=MenuPrincipal",
+      "size": {
+        "width": 389.0,
+        "height": 322.056640625
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

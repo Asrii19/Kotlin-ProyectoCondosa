@@ -1,0 +1,2266 @@
+{
+  "name": "vis_coti_completada8",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "d5sAnj4xc4Ac4iCQPEmr2A",
+    "node": "23:132",
+    "version": "4359296137",
+    "component-id": "9740eb9aee6a6b85fde497aca478f857804691d3"
+  },
+  "default": "VIS_COTI_COMPLETADA8",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Fondo"
+      },
+      {
+        "type": "group",
+        "id": "IconoCasa"
+      },
+      {
+        "type": "group",
+        "id": "InfPersonal"
+      },
+      {
+        "type": "group",
+        "id": "InfPredio"
+      },
+      {
+        "type": "group",
+        "id": "infServ3"
+      },
+      {
+        "type": "group",
+        "id": "infCoti4"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "text",
+        "id": "bannerCondosa"
+      },
+      {
+        "type": "text",
+        "id": "codigo"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle9"
+      },
+      {
+        "type": "text",
+        "id": "informaPersonal"
+      },
+      {
+        "type": "text",
+        "id": "Nombre"
+      },
+      {
+        "type": "text",
+        "id": "NameEscritoPersona"
+      },
+      {
+        "type": "text",
+        "id": "NumDocEscrito"
+      },
+      {
+        "type": "text",
+        "id": "RolEscrito"
+      },
+      {
+        "type": "text",
+        "id": "CorreoEscrito"
+      },
+      {
+        "type": "text",
+        "id": "NumDoc"
+      },
+      {
+        "type": "text",
+        "id": "Rol"
+      },
+      {
+        "type": "text",
+        "id": "Correo"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleSoliComplete2"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle10"
+      },
+      {
+        "type": "text",
+        "id": "InfoPredio"
+      },
+      {
+        "type": "text",
+        "id": "NombreInfPredio2"
+      },
+      {
+        "type": "text",
+        "id": "nameEscritoPredio"
+      },
+      {
+        "type": "text",
+        "id": "directEscrito"
+      },
+      {
+        "type": "text",
+        "id": "Condominio"
+      },
+      {
+        "type": "text",
+        "id": "NumberRUC"
+      },
+      {
+        "type": "text",
+        "id": "Direccion"
+      },
+      {
+        "type": "text",
+        "id": "TipoPredio"
+      },
+      {
+        "type": "text",
+        "id": "RUC"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleSoliComplete3"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleSoliComplete35"
+      },
+      {
+        "type": "text",
+        "id": "InfoServ"
+      },
+      {
+        "type": "text",
+        "id": "CantAdminLabel"
+      },
+      {
+        "type": "text",
+        "id": "CantAdmin"
+      },
+      {
+        "type": "text",
+        "id": "CantLimpieza"
+      },
+      {
+        "type": "text",
+        "id": "CantJardinero"
+      },
+      {
+        "type": "text",
+        "id": "CantVigilante"
+      },
+      {
+        "type": "text",
+        "id": "TipoServ"
+      },
+      {
+        "type": "text",
+        "id": "CantLimpiezaLabel"
+      },
+      {
+        "type": "text",
+        "id": "CantJardineroLabel"
+      },
+      {
+        "type": "text",
+        "id": "CantVigilanteLabel"
+      },
+      {
+        "type": "text",
+        "id": "TipoServicio"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleInfCoti4"
+      },
+      {
+        "type": "vector",
+        "id": "RectangleInfCoti45"
+      },
+      {
+        "type": "text",
+        "id": "InformeCotizacion"
+      },
+      {
+        "type": "text",
+        "id": "ImporteAdmin"
+      },
+      {
+        "type": "text",
+        "id": "MontoAdmin"
+      },
+      {
+        "type": "text",
+        "id": "MontoLimpieza"
+      },
+      {
+        "type": "text",
+        "id": "MontoJardinero"
+      },
+      {
+        "type": "text",
+        "id": "MontoVigilante"
+      },
+      {
+        "type": "text",
+        "id": "TotalMonto"
+      },
+      {
+        "type": "text",
+        "id": "PersonalLimpieza"
+      },
+      {
+        "type": "text",
+        "id": "Jardineros"
+      },
+      {
+        "type": "text",
+        "id": "Vigilantes"
+      },
+      {
+        "type": "text",
+        "id": "TotalCotizado"
+      }
+    ],
+    "modes": {
+      "VIS_COTI_COMPLETADA8": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Fondo",
+              "IconoCasa",
+              "InfPersonal",
+              "InfPredio",
+              "infServ3",
+              "infCoti4",
+              "Vector",
+              "bannerCondosa"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "Fondo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "13.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "417.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "844.0"
+              }
+            },
+            "vector-content": "fondo.svg"
+          },
+          {
+            "id": "IconoCasa",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "146.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "35.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "98.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "codigo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "InfPersonal",
+            "border-radius": "20.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "41.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "80.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "155.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle9",
+              "informaPersonal",
+              "Nombre",
+              "NameEscritoPersona",
+              "NumDocEscrito",
+              "RolEscrito",
+              "CorreoEscrito",
+              "NumDoc",
+              "Rol",
+              "Correo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "InfPredio",
+            "border-radius": "20.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "41.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "251.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "155.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "RectangleSoliComplete2",
+              "Rectangle10",
+              "InfoPredio",
+              "NombreInfPredio2",
+              "nameEscritoPredio",
+              "directEscrito",
+              "Condominio",
+              "NumberRUC",
+              "Direccion",
+              "TipoPredio",
+              "RUC"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "infServ3",
+            "border-radius": "20.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "41.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "422.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "156.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "RectangleSoliComplete3",
+              "RectangleSoliComplete35",
+              "InfoServ",
+              "CantAdminLabel",
+              "CantAdmin",
+              "CantLimpieza",
+              "CantJardinero",
+              "CantVigilante",
+              "TipoServ",
+              "CantLimpiezaLabel",
+              "CantJardineroLabel",
+              "CantVigilanteLabel",
+              "TipoServicio"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "infCoti4",
+            "border-radius": "20.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "42.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "593.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "155.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "RectangleInfCoti4",
+              "RectangleInfCoti45",
+              "InformeCotizacion",
+              "ImporteAdmin",
+              "MontoAdmin",
+              "MontoLimpieza",
+              "MontoJardinero",
+              "MontoVigilante",
+              "TotalMonto",
+              "PersonalLimpieza",
+              "Jardineros",
+              "Vigilantes",
+              "TotalCotizado"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Vector",
+            "border-radius": "2.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-139.70156860351562"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-378.218994140625"
+              }
+            },
+            "tap-handler": "$clickRetroceder",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "47.23138427734375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "35.5029296875"
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "bannerCondosa",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "374.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "266.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "© 2023 CONDOSA. Todos los derechos reservados",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "10.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "codigo",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "000023",
+            "overflow": "visible",
+            "text-size": "25.0",
+            "line-height": "1.219000015258789",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "Rectangle9",
+            "border-radius": "20.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-4.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "15.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "124.0"
+              }
+            },
+            "vector-content": "rectangle9.svg"
+          },
+          {
+            "id": "informaPersonal",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-48.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-66.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "212.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Información PERSONAL",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "18.0",
+            "line-height": "1.2102272245619032",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Nombre",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-99.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-29.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "79.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Nombre:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "NameEscritoPersona",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "34.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-29.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "219.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "Quintana Ramirez Fabrizzio ",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "NumDocEscrito",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "89.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-2.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "45616623",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "RolEscrito",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "61.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "29.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "166.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "Pdte Junta Propietarios",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "CorreoEscrito",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "61.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "56.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "166.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "fabrizzio@hotmail.com",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "NumDoc",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-43.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-2.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "192.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Num documento:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Rol",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-99.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "29.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "79.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Rol:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Correo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-99.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "56.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "79.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Correo:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "RectangleSoliComplete2",
+            "border-radius": "20.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-4.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "15.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "124.0"
+              }
+            },
+            "vector-content": "rectangle_soli_complete2.svg"
+          },
+          {
+            "id": "Rectangle10",
+            "border-radius": "20.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-4.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "15.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "124.0"
+              }
+            },
+            "vector-content": "rectangle10.svg"
+          },
+          {
+            "id": "InfoPredio",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-63.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-66.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "180.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Información PREDIO",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "18.0",
+            "line-height": "1.2102272245619032",
+            "typeface": "Inter"
+          },
+          {
+            "id": "NombreInfPredio2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-99.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-28.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "79.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Nombre:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "nameEscritoPredio",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "34.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-28.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "219.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "Las Mariposas",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "directEscrito",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "89.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "Jr. Primavera",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Condominio",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "61.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "26.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "166.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "Condominio",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "NumberRUC",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "61.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "53.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "166.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "56451316",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Direccion",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-102.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "73.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Dirección:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "TipoPredio",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-86.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "26.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "105.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Tipo de predio:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "RUC",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-120.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "53.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "RUC:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "RectangleSoliComplete3",
+            "border-radius": "20.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-4.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "15.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "124.0"
+              }
+            },
+            "vector-content": "rectangle_soli_complete3.svg"
+          },
+          {
+            "id": "RectangleSoliComplete35",
+            "border-radius": "20.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-4.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "16.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "124.0"
+              }
+            },
+            "vector-content": "rectangle_soli_complete35.svg"
+          },
+          {
+            "id": "InfoServ",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-46.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-67.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Información SERVICIOS",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "18.0",
+            "line-height": "1.2102272245619032",
+            "typeface": "Inter"
+          },
+          {
+            "id": "CantAdminLabel",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-43.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-28.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "191.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Cant. de administracion:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "CantAdmin",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "34.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-29.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "219.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "1",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "CantLimpieza",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "89.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-6.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "2",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "CantJardinero",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "62.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "16.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "166.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "2",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "CantVigilante",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "62.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "38.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "166.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "2",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "TipoServ",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "61.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "60.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "166.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "Administración",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "CantLimpiezaLabel",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-45.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-6.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "188.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Cant. personal de limpieza:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "CantJardineroLabel",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-47.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "16.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "184.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Cant. jardineros: ",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "CantVigilanteLabel",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-46.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "38.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "185.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Cant. vigilantes:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "TipoServicio",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-78.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "60.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "122.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Tipo de servicio:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "RectangleInfCoti4",
+            "border-radius": "20.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-4.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "15.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "124.0"
+              }
+            },
+            "vector-content": "rectangle_inf_coti4.svg"
+          },
+          {
+            "id": "RectangleInfCoti45",
+            "border-radius": "20.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-4.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "15.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "124.0"
+              }
+            },
+            "vector-content": "rectangle_inf_coti45.svg"
+          },
+          {
+            "id": "InformeCotizacion",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-41.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-66.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "223.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Informe de COTIZACIÓN",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "18.0",
+            "line-height": "1.2102272245619032",
+            "typeface": "Inter"
+          },
+          {
+            "id": "ImporteAdmin",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-39.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-29.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "199.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Importe por administración:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "MontoAdmin",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "34.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-29.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "219.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "500",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "MontoLimpieza",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "89.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-6.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "600",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "MontoJardinero",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "61.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "17.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "166.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "600",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "MontoVigilante",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "61.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "39.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "166.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "800",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "TotalMonto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "61.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "61.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "166.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "2500.00",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "PersonalLimpieza",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-45.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-6.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "188.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Personal de limpieza:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Jardineros",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-47.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "17.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "184.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Jardineros: ",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Vigilantes",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-46.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "39.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "185.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Vigilantes:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "TotalCotizado",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-78.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "61.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "122.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.8397435897435898",
+              "value": "0.611764705882353"
+            },
+            "text-content": "TOTAL cotizado:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "clickRetroceder": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "VIS_COTI_COMPLETADA8",
+      "size": {
+        "width": 390.0,
+        "height": 844.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

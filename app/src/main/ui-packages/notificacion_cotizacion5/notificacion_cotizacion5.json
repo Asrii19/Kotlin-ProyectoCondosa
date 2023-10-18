@@ -1,0 +1,729 @@
+{
+  "name": "notificacion_cotizacion5",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "d5sAnj4xc4Ac4iCQPEmr2A",
+    "node": "23:130",
+    "version": "4342520617",
+    "component-id": "f6d6e5e1eb0d31e59ccb24fea1270c306056d6e0"
+  },
+  "default": "NOTIFICACION_COTIZACION5",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Fondo"
+      },
+      {
+        "type": "text",
+        "id": "Num_Coti"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle13"
+      },
+      {
+        "type": "group",
+        "id": "Group6"
+      },
+      {
+        "type": "text",
+        "id": "TituloCotizacionRealizada"
+      },
+      {
+        "type": "text",
+        "id": "InfoCotizacion"
+      },
+      {
+        "type": "text",
+        "id": "MensajeCotizacion"
+      },
+      {
+        "type": "text",
+        "id": "datosLabel"
+      },
+      {
+        "type": "text",
+        "id": "datosEscribir"
+      },
+      {
+        "type": "group",
+        "id": "iconoMail"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle9"
+      },
+      {
+        "type": "text",
+        "id": "ACEPTAR"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "group",
+        "id": "Group"
+      },
+      {
+        "type": "vector",
+        "id": "Vector4"
+      },
+      {
+        "type": "vector",
+        "id": "Vector3"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      }
+    ],
+    "modes": {
+      "NOTIFICACION_COTIZACION5": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Fondo",
+              "Num_Coti",
+              "Rectangle13",
+              "Group6",
+              "TituloCotizacionRealizada",
+              "InfoCotizacion",
+              "MensajeCotizacion",
+              "datosLabel",
+              "datosEscribir",
+              "iconoMail"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "Fondo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "390.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "844.0"
+              }
+            },
+            "vector-content": "fondo.svg"
+          },
+          {
+            "id": "Num_Coti",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-370.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "000023",
+            "overflow": "visible",
+            "text-size": "25.0",
+            "line-height": "1.219000015258789",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "Rectangle13",
+            "border-radius": "15.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-73.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "390.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "410.0"
+              }
+            },
+            "vector-content": "rectangle13.svg"
+          },
+          {
+            "id": "Group6",
+            "border-radius": "20.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "137.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "479.0"
+              }
+            },
+            "tap-handler": "$clickAceptar",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "115.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "43.125"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle9",
+              "ACEPTAR"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "TituloCotizacionRealizada",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-219.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "325.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "67.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "1.0",
+              "value": "0.7725490196078432"
+            },
+            "text-content": "COTIZACIÓN REALIZADA CON ÉXITO",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "25.0",
+            "line-height": "1.210227279663086",
+            "typeface": "Inter"
+          },
+          {
+            "id": "InfoCotizacion",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-28.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-164.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "269.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Información de la cotización:",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "17.0",
+            "line-height": "1.2102272931267233",
+            "typeface": "Inter"
+          },
+          {
+            "id": "MensajeCotizacion",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "24.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "12.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "286.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "241.46341463414635",
+              "saturation": "0.48235294117647054",
+              "value": "0.3333333333333333"
+            },
+            "text-content": "La cotización fue notificada al cliente.",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "15.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "datosLabel",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-92.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-92.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "142.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "100.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "annotated-text-content": {
+              "text": "Predio: \nTipo:\nCliente:\nTOTAL cotizado:",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "24",
+                  "annotated-text-style": {}
+                },
+                {
+                  "span-start": "24",
+                  "span-length": "15",
+                  "annotated-text-style": {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "0.0",
+                      "saturation": "1.0",
+                      "value": "0.7215686274509804"
+                    }
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "17.0",
+            "line-height": "1.2102272931267233",
+            "typeface": "Inter"
+          },
+          {
+            "id": "datosEscribir",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "47.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-92.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "229.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "100.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Las Mariposas\nCondominio\nQuintana Ramirez Fabrizzio\n2500.00",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "right",
+            "text-size": "17.0",
+            "line-height": "1.2102272931267233",
+            "typeface": "Inter"
+          },
+          {
+            "id": "iconoMail",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "32.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "409.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector",
+              "Group"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle9",
+            "border-radius": "20.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "115.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "43.125"
+              }
+            },
+            "vector-content": "rectangle9.svg"
+          },
+          {
+            "id": "ACEPTAR",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.52276611328125"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "2.77783203125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "93.04547119140625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "27.3125"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "ACEPTAR",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Group",
+            "margin": {
+              "left": "3.416656494140625",
+              "top": "7.6875",
+              "right": "3.41668701171875",
+              "bottom": "7.6875"
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector4",
+              "Vector3",
+              "Vector2",
+              "Vector1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Vector4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-1.645111083984375"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-1.64501953125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "34.166656494140625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.625"
+              }
+            },
+            "vector-content": "vector4.svg"
+          },
+          {
+            "id": "Vector3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-1.64520263671875"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-8.051513671875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "34.166656494140625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.8125"
+              }
+            },
+            "vector-content": "vector3.svg"
+          },
+          {
+            "id": "Vector2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-10.186767578125"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-8.05126953125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "17.083343505859375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.8125"
+              }
+            },
+            "vector-content": "vector2.svg"
+          },
+          {
+            "id": "Vector1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "6.896575927734375"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-8.05126953125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "17.083343505859375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.8125"
+              }
+            },
+            "vector-content": "vector1.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "clickAceptar": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "NOTIFICACION_COTIZACION5",
+      "size": {
+        "width": 390.0,
+        "height": 844.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
